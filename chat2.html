@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Chat</title>
+    <link rel="stylesheet" href="chat2.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="messages" id="messages"></div>
+        <div class="user-container">
+            <div class="user blue">
+                <img src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-bleu.png" alt="Usuario Azul" class="user-icon">
+                <input type="text" id="messageInputBlue" placeholder="Escribe un mensaje...">
+                <button id="sendButtonBlue" class="blue-button">Enviar</button>
+            </div>
+            <div class="user red">
+                <img src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-rouge.png" alt="Usuario Rojo" class="user-icon">
+                <input type="text" id="messageInputRed" placeholder="Escribe un mensaje...">
+                <button id="sendButtonRed" class="red-button" >Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="chat2.js"></script>
+</body>
+</html>
